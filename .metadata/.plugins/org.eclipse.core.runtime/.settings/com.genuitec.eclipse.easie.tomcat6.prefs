@@ -1,0 +1,8 @@
+#Fri Dec 26 19:54:22 CST 2014
+LIBRARY_PATH="D\:\\Program Files\\MyEclipse\\Common\\binary\\com.sun.java.jdk.win32.x86_64_1.6.0.013\\bin;D\:\\Program Files\\apache-tomcat-6.0.36\\bin"
+eclipse.preferences.version=1
+JDK_HOME=D\:\\Program Files\\MyEclipse\\Common\\binary\\com.sun.java.jdk.win32.x86_64_1.6.0.013
+TOMCAT_BASE=D\:\\Program Files\\apache-tomcat-6.0.36
+ENDORSED_DIRS="D\:\\Program Files\\apache-tomcat-6.0.36/common/endorsed"
+TOMCAT_HOME=D\:\\Program Files\\apache-tomcat-6.0.36
+TOMCAT_TEMP=D\:\\Program Files\\apache-tomcat-6.0.36\\temp
