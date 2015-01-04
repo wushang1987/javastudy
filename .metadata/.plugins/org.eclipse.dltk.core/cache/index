@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="E:/GitHubSpace/javastudy/javastudy/WebRoot/js/bootstrap.js" timestamp="1419595268037" lastAccessTime="1419595269766"/>
+  <entries path="E:/GitHubSpace/javastudy/javastudy/WebRoot/js/bootstrap.min.js" timestamp="1419595268038" lastAccessTime="1419595269904"/>
+  <entries path="E:/GitHubSpace/javastudy/javastudy/WebRoot/js/jquery-2.1.0.min.js" timestamp="1419595268040" lastAccessTime="1419595270104"/>
+</cache:CacheIndex>
