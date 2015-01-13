@@ -618,3 +618,511 @@ java.io.IOException: Authorization exception retrieving nexus-maven-repository-i
 
 !ENTRY org.eclipse.osgi 2 1 2014-12-26 20:02:12.780
 !MESSAGE NLS unused message: ContentFormat_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+!SESSION 2015-01-05 19:14:57.473 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-05 19:15:26.817
+!MESSAGE NLS unused message: Unnecessary_Semicolon_ERROR in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-05 19:15:26.818
+!MESSAGE NLS missing message: Obsolete_attribute_name___ERROR_ in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.jface 2 0 2015-01-05 19:15:40.583
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-05 19:15:40.583
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@63dfb24d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-01-05 19:15:41.158
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-01-05 19:15:41.158
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@55dbcca3,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@51580d5e,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-05 19:15:44.779
+!MESSAGE NLS unused message: prompt_optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-05 19:15:44.780
+!MESSAGE NLS unused message: prompt_preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-05 19:15:44.780
+!MESSAGE NLS unused message: prompt_optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-01-05 19:15:45.508
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-01-06 18:49:05.346 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-01-06 18:50:34.402
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-06 18:50:34.402
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@586b736f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-06 18:50:37.504
+!MESSAGE NLS unused message: prompt_optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-06 18:50:37.504
+!MESSAGE NLS unused message: prompt_preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-06 18:50:37.505
+!MESSAGE NLS unused message: prompt_optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-01-06 18:50:40.063
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-01-06 18:50:40.063
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@152dab50,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@694a1c0c,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.osgi 2 0 2015-01-06 18:50:43.469
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-8,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.2.me201103172348 [2013]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:../Common/plugins/org.eclipse.wst.jsdt.core_1.1.2.me201103172348.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-01-06 18:50:46.849
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-01-07 13:01:43.597 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data E:\GitHubSpace\javastudy -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-01-07 13:01:58.582
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-07 13:01:58.582
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@59fc4d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:02:00.969
+!MESSAGE NLS unused message: prompt_optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:02:00.969
+!MESSAGE NLS unused message: prompt_preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:02:00.969
+!MESSAGE NLS unused message: prompt_optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-01-07 13:02:02.126
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-01-07 13:02:02.127
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@f44809c,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@5a578998,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.osgi 2 0 2015-01-07 13:02:06.220
+!MESSAGE While loading class "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16", thread "Thread[Worker-8,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.wst.jsdt.core_1.1.2.me201103172348 [2013]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "org.eclipse.wst.jsdt.internal.core.JavaModelManager$16" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:../Common/plugins/org.eclipse.wst.jsdt.core_1.1.2.me201103172348.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 16 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager$15.run(JavaModelManager.java:4182)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-01-07 13:02:08.417
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:03:47.671
+!MESSAGE NLS unused message: Unnecessary_Semicolon_ERROR in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:03:47.672
+!MESSAGE NLS missing message: Obsolete_attribute_name___ERROR_ in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistProposal_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistProposal_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistProposal_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistProposal_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistTip_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistTip_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistTip_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentAssistTip_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentFormat_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentFormat_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentFormat_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-07 13:19:00.578
+!MESSAGE NLS unused message: ContentFormat_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+!SESSION 2015-01-13 12:58:31.348 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-01-13 12:58:59.329
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-13 12:58:59.329
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@75a9c24b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-13 12:59:07.211
+!MESSAGE NLS unused message: prompt_optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-13 12:59:07.212
+!MESSAGE NLS unused message: prompt_preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-13 12:59:07.212
+!MESSAGE NLS unused message: prompt_optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-01-13 12:59:08.198
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-01-13 12:59:08.198
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@3f55df18,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1ea9c124,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.osgi 2 0 2015-01-13 12:59:16.250
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201012090051 [2116]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.maven.ide.eclipse.internal.embedder.ArtifactTransferListenerAdapter" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:../Common/plugins/org.maven.ide.eclipse_0.10.0.me201012090051.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 19 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createArtifactTransferListener(MavenImpl.java:796)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:199)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:343)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2015-01-13 12:59:21.277
+!MESSAGE While loading class "org.maven.ide.eclipse.internal.project.DependencyResolutionContext", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "org.maven.ide.eclipse_0.10.0.me201012090051 [2116]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.maven.ide.eclipse.internal.project.DependencyResolutionContext" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:../Common/plugins/org.maven.ide.eclipse_0.10.0.me201012090051.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 17 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerImpl.refresh(MavenProjectManagerImpl.java:345)
+	at org.maven.ide.eclipse.internal.project.MavenProjectManagerRefreshJob.run(MavenProjectManagerRefreshJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-01-13 12:59:28.971
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

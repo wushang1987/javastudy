@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<jsp:useBean id="userBean" class="com.wgh.UserBean"></jsp:useBean>
 <!doctype html>
 <html lang="en">
 <head>
@@ -53,17 +54,15 @@
 		
 	</nav>
 	<div class="container">
-	<div class="row">
-		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-			afdsfasdf
+		<div class="row">
+			测试javabean:
+			<jsp:getProperty property="name" name="userBean"/>
+			<jsp:getProperty property="password" name="userBean"/>
+			
+			<jsp:setProperty property="shuxueNum" name="userBean" value="1"/>
+			<jsp:setProperty property="yingyuNum" name="userBean" value="1"/>
+			<jsp:getProperty property="zongfen" name="userBean"/>
 		</div>
-		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-			<textarea class="form-control" rows="3"></textarea>
-		</div>
-		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-			afdsfasdf
-		</div>
-	</div>
 	</div>
 </body>
 </html>

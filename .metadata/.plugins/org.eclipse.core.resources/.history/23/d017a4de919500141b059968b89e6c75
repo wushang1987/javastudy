@@ -1,0 +1,18 @@
+import p1.Test;
+
+public class Car {
+	private String name;
+	public Car(){
+		name = "wangweidong";
+		Test t = new Test();
+		t.display();
+	}
+	
+	public double run(int oil){
+		return 100;
+	}
+	public static void main(String[] args){
+		Car c = new Car();
+		//double 
+	}
+}

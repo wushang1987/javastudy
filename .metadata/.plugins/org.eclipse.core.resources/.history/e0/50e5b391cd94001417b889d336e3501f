@@ -1,0 +1,10 @@
+import p1.Test;
+
+public class Car {
+	private String name;
+	public Car(){
+		//name = "wangweidong";
+		Test t = new Test();
+		t.display();
+	}
+}
