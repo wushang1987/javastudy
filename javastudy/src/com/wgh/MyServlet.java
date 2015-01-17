@@ -65,7 +65,7 @@ public class MyServlet extends HttpServlet {
 	 */
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+		/*
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		out.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">");
@@ -79,6 +79,19 @@ public class MyServlet extends HttpServlet {
 		out.println("</HTML>");
 		out.flush();
 		out.close();
+		*/
+		request.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html;charset=UTF-8");
+		
+		String name = request.getParameter("name");
+		
+		PrintWriter writer = response.getWriter();
+		if(name != null)
+		{
+			writer.write("Helllo"+name+"!");
+		}
+		writer.flush();
+		writer.close();
 	}
 
 	/**

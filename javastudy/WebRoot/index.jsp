@@ -55,14 +55,41 @@
 	</nav>
 	<div class="container">
 		<div class="row">
-			测试javabean:
-			<jsp:getProperty property="name" name="userBean"/>
-			<jsp:getProperty property="password" name="userBean"/>
-			
-			<jsp:setProperty property="shuxueNum" name="userBean" value="1"/>
-			<jsp:setProperty property="yingyuNum" name="userBean" value="1"/>
-			<jsp:getProperty property="zongfen" name="userBean"/>
+			<table class="table">
+				<tr>
+					<td>用户名</td>
+					<td>密码</td>
+					<td>数学成绩</td>
+					<td>英语成绩</td>
+					<td>总分</td>
+				</tr>
+					<td><jsp:getProperty property="name" name="userBean"/></td>
+					<td><jsp:getProperty property="password" name="userBean"/></td>
+					<td><jsp:setProperty property="shuxueNum" name="userBean" value="1"/>1</td>
+					<td><jsp:setProperty property="yingyuNum" name="userBean" value="1"/>1</td>
+					<td><jsp:getProperty property="zongfen" name="userBean"/></td>
+				<tr>
+					
+				</tr>
+			</table>
 		</div>
+		
+		<div class="row">
+			<form action="MyServlet" method="post">
+				<p>请输入您的姓名<input type="text" name="name"></p>
+				<p><input type="submit" value="提交"></p>
+			</form>
+		</div>
+		
+		<div class="row">
+			<form action="UserServlet" method="post">
+				<p>请输入您的姓名<input type="text" name="name"></p>
+				<p>请输入您的密码<input type="text" name="password"></p>
+				<p><input type="submit" value="提交"></p>
+			</form>
+		</div>
+		
+		
 	</div>
 </body>
 </html>

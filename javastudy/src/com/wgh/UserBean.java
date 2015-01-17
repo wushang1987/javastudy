@@ -1,11 +1,11 @@
 package com.wgh;
 
 public class UserBean {
-	private String name = "wangweidong";
-	private String password = "123";
-	private int shuxueNum;
-	private int yingyuNum;
-	private int zongfen;
+	private String name = "wangweidong";   //用户名
+	private String password = "123";   //密码
+	private int shuxueNum;      //数学成绩
+	private int yingyuNum;     //英语成绩
+	private int zongfen;		//总分
 	public void setName(String name) {
 		this.name = name;
 	}

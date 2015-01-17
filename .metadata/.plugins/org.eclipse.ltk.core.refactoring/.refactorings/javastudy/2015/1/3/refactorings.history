@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;attribute&apos; from expression &apos;(List&lt;UserBean&gt;)application.getAttribute(&quot;users&quot;)&apos;&#x0D;&#x0A;- Original project: &apos;javastudy&apos;&#x0D;&#x0A;- Variable name: &apos;attribute&apos;&#x0D;&#x0A;- Destination method: &apos;com.wgh.UserServlet.doPost()&apos;&#x0D;&#x0A;- Variable expression: &apos;(List&lt;UserBean&gt;)application.getAttribute(&quot;users&quot;)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;attribute&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.wgh{UserServlet.java" name="attribute" replace="true" selection="3187 50" stamp="1421471762133" version="1.0"/>
+</session>
