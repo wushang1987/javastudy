@@ -89,6 +89,21 @@
 			</form>
 		</div>
 		
+		<div class="row">
+			<div>欢迎光临，您是本站第<%=application.getAttribute("count") %>位访客</div>
+		</div>
+		
+		<div class="row">
+			<form action="AddServlet" method="post">
+				<ul>
+					<li>图书编号：<input type="text" name="id"></li>				
+					<li>名          称：<input type="text" name="name"></li>				
+					<li>作	    者：<input type="text" name="author"></li>				
+					<li>价          格：<input type="text" name="price"></li>				
+				</ul>
+				<input type="submit" value="添加">
+			</form>
+		</div>
 		
 	</div>
 </body>

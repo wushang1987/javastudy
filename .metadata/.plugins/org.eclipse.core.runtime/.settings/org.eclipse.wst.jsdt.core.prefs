@@ -1,0 +1,7 @@
+#Sat Jan 17 15:14:24 CST 2015
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedMethodReference=warning
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedFieldReference=warning
+eclipse.preferences.version=1
+semanticValidation=disabled
+org.eclipse.wst.jsdt.core.compiler.problem.unresolvedTypeReference=warning
+org.eclipse.wst.jsdt.core.codeComplete.visibilityCheck=enabled
