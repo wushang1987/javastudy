@@ -1,0 +1,15 @@
+package com.wgh;
+
+public class Book {
+	private int id;
+	private String name;
+	private Double price;
+	private int bookCount;
+	private String author;
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getId() {
+		return id;
+	}
+}

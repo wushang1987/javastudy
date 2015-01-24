@@ -1,0 +1,15 @@
+package com.wgh;
+
+import java.sql.Connection;
+
+public class Batch {
+	public Batch(){
+		
+	}
+	
+	public Connection getConnection(){
+		
+	}
+}
+
+

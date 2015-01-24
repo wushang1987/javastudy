@@ -2024,3 +2024,829 @@ HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershor
 HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
 	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@47f0e973,
 	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistProposal_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistProposal_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistProposal_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistProposal_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistTip_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistTip_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistTip_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentAssistTip_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentFormat_label in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentFormat_tooltip in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentFormat_image in: org.hibernate.eclipse.console.HibernateConsoleMessages
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 13:26:35.210
+!MESSAGE NLS unused message: ContentFormat_description in: org.hibernate.eclipse.console.HibernateConsoleMessages
+!SESSION 2015-01-19 19:00:47.403 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data E:\GitHubSpace\javastudy -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 19:00:57.419
+!MESSAGE NLS unused message: Unnecessary_Semicolon_ERROR in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 19:00:57.419
+!MESSAGE NLS missing message: Obsolete_attribute_name___ERROR_ in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 19:01:02.342
+!MESSAGE NLS unused message: prompt_optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 19:01:02.343
+!MESSAGE NLS unused message: prompt_preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-19 19:01:02.343
+!MESSAGE NLS unused message: prompt_optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.jface 2 0 2015-01-19 19:01:03.539
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-19 19:01:03.539
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@160ba2e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-01-19 19:01:03.809
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-01-19 19:01:03.809
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@4f79a28b,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@3a9e7c70,
+	expression=,sourcePriority=0)
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-01-19 19:01:04.886
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:28:06.810
+!MESSAGE Marker id 6929 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 6929 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:28:06.810
+!MESSAGE Marker id 6929 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:28:06.810
+!MESSAGE Marker id 6928 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 6928 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:28:06.810
+!MESSAGE Marker id 6928 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.041
+!MESSAGE Marker id 7018 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7018 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.041
+!MESSAGE Marker id 7018 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.041
+!MESSAGE Marker id 7017 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7017 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.041
+!MESSAGE Marker id 7017 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.041
+!MESSAGE Marker id 7016 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7016 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.041
+!MESSAGE Marker id 7016 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7015 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7015 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7015 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7022 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7022 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7022 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7021 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7021 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7021 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7020 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7020 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7020 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7019 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7019 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7019 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7023 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7023 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7023 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7013 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7013 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7013 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7014 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7014 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7014 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7012 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 7012 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-19 19:38:39.057
+!MESSAGE Marker id 7012 not found.
+!SESSION 2015-01-24 10:32:05.758 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:32:41.432
+!MESSAGE NLS unused message: Unnecessary_Semicolon_ERROR in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:32:41.433
+!MESSAGE NLS missing message: Obsolete_attribute_name___ERROR_ in: org.eclipse.wst.html.core.internal.HTMLCorePluginResources
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-01-24 10:32:58.081
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface 2 0 2015-01-24 10:32:58.301
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-01-24 10:32:58.301
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@c02925e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-01-24 10:32:59.381
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-01-24 10:32:59.381
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1070ed00,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@65d7a36e,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:33:02.335
+!MESSAGE NLS unused message: prompt_optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:33:02.335
+!MESSAGE NLS unused message: prompt_preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:33:02.335
+!MESSAGE NLS unused message: prompt_optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.pde.core 4 0 2015-01-24 10:44:41.246
+!MESSAGE no protocol: true
+!STACK 0
+java.net.MalformedURLException: no protocol: true
+	at java.net.URL.<init>(URL.java:567)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at org.eclipse.pde.internal.core.TargetWeaver.getDevProperties(TargetWeaver.java:67)
+	at org.eclipse.pde.internal.core.TargetWeaver.weaveManifest(TargetWeaver.java:106)
+	at org.eclipse.pde.internal.core.MinimalState.addBundle(MinimalState.java:123)
+	at org.eclipse.pde.internal.core.PDEState.createNewTargetState(PDEState.java:154)
+	at org.eclipse.pde.internal.core.PDEState.readTargetState(PDEState.java:122)
+	at org.eclipse.pde.internal.core.PDEState.<init>(PDEState.java:100)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:481)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(PluginModelManager.java:870)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(PluginRegistry.java:105)
+	at org.eclipse.pde.internal.ui.wizards.RequiredPluginsContainerPage.createRealEntries(RequiredPluginsContainerPage.java:177)
+	at org.eclipse.pde.internal.ui.wizards.RequiredPluginsContainerPage.setSelection(RequiredPluginsContainerPage.java:163)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ClasspathContainerWizard.getContainerPage(ClasspathContainerWizard.java:157)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ClasspathContainerWizard.getNextPage(ClasspathContainerWizard.java:169)
+	at org.eclipse.jface.wizard.WizardPage.getNextPage(WizardPage.java:172)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ClasspathContainerSelectionPage.doDoubleClick(ClasspathContainerSelectionPage.java:132)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ClasspathContainerSelectionPage$2.doubleClick(ClasspathContainerSelectionPage.java:94)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:824)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:822)
+	at org.eclipse.jface.viewers.StructuredViewer.handleDoubleSelect(StructuredViewer.java:1113)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1225)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:238)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:235)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:296)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.ClasspathContainerWizard.openWizard(ClasspathContainerWizard.java:225)
+	at org.eclipse.jdt.ui.wizards.BuildPathDialogAccess.chooseContainerEntries(BuildPathDialogAccess.java:276)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.LibrariesWorkbookPage.openContainerSelectionDialog(LibrariesWorkbookPage.java:868)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.LibrariesWorkbookPage.libaryPageCustomButtonPressed(LibrariesWorkbookPage.java:262)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.LibrariesWorkbookPage.access$0(LibrariesWorkbookPage.java:249)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.LibrariesWorkbookPage$LibrariesAdapter.customButtonPressed(LibrariesWorkbookPage.java:198)
+	at org.eclipse.jdt.internal.ui.wizards.dialogfields.TreeListDialogField.buttonPressed(TreeListDialogField.java:169)
+	at org.eclipse.jdt.internal.ui.wizards.dialogfields.TreeListDialogField.doButtonSelected(TreeListDialogField.java:387)
+	at org.eclipse.jdt.internal.ui.wizards.dialogfields.TreeListDialogField.access$2(TreeListDialogField.java:383)
+	at org.eclipse.jdt.internal.ui.wizards.dialogfields.TreeListDialogField$2.widgetSelected(TreeListDialogField.java:348)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.genuitec.pulse.eclipse.launcher.Main.main(Main.java:110)
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: birt.web.category.name in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: birt.web.project.name in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: birt.web.project.description in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: birt.web.actionsets.description in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: create.birt.web.module in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: BIRT_FACET_LABEL in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: BIRT_FACET_DESCRIPTION in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: JSP_New_context_type_Extension_Element.name in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: JSP_Tag_context_type_Extension_Element.name in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: BirtResourcesDefinition in: plugin
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-24 10:45:22.482
+!MESSAGE NLS unused message: birt.action.importruntime.name in: plugin
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2015-01-24 13:41:09.950
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2203)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2342)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:674)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:600)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1198)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1979)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2419)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2404)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$2(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$3.run(JobSafeStructuredDocument.java:141)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:144)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replace(BasicStructuredDocument.java:2364)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:103)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:149)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replace(JobSafeStructuredDocument.java:106)
+	at org.eclipse.ui.texteditor.MoveLinesAction.runWithEvent(MoveLinesAction.java:359)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1253)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmSysKeyDown(Widget.java:2557)
+	at org.eclipse.swt.widgets.Control.WM_SYSKEYDOWN(Control.java:4942)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4238)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4886)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2459)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.genuitec.pulse.eclipse.launcher.Main.main(Main.java:110)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8961 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8961 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8961 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8962 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8962 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8962 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8959 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8959 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8959 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8960 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8960 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8960 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8963 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8963 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8963 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8954 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8954 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8954 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8957 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8957 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8957 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8958 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8958 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8958 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8955 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8955 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8955 not found.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8956 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8956 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getType(Marker.java:194)
+	at org.eclipse.core.internal.resources.Marker.isSubtypeOf(Marker.java:215)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.initAnnotationType(StructuredMarkerAnnotation.java:109)
+	at org.eclipse.wst.sse.ui.internal.StructuredMarkerAnnotation.getAnnotationType(StructuredMarkerAnnotation.java:46)
+	at org.eclipse.wst.sse.ui.internal.reconcile.AbstractStructuredTextReconcilingStrategy.getAnnotationsToRemove(AbstractStructuredTextReconcilingStrategy.java:201)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:289)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:248)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2015-01-24 14:32:35.797
+!MESSAGE Marker id 8956 not found.

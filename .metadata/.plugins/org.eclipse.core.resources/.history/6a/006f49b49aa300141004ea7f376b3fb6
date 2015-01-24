@@ -1,0 +1,48 @@
+package com.wgh;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.*;
+
+
+
+public class FindBook {
+	public Connection getConnection(){
+		Connection conn=null;
+		
+		try{
+			Class.forName("com.mysql.jdbc.Driver");
+			String url = "jdbc:mysql://localhost:3306/test";
+			String username = "root";
+			String password = "12345";
+			conn = DriverManager.getConnection(url,username,password);
+		}catch (ClassNotFoundException e){
+			e.printStackTrace();
+		}catch(SQLException e){
+			e.printStackTrace();
+		}
+		
+		return conn;
+	}
+	
+	public List<Book> findAll(){
+		List<Book> list = new ArrayList<Book>();
+		Connection conn = getConnection();
+		
+		try{
+			//CallableStatement cs = conn.prepareCall(sql, resultSetType, resultSetConcurrency, resultSetHoldability)("{call findAllBook()}");
+			CallableStatement cs = conn.prepareCall("{call findAllBook()}");
+			
+			ResultSet rs = cs.executeQuery();
+			
+			
+		} catch (Exception e){
+			e.printStackTrace();
+		}
+		
+		
+		return list;
+	}
+}
