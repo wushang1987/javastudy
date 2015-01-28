@@ -6,7 +6,7 @@
 <%
 	//执行批量插入操作
 	int row = batch.saveBatch();
-	out.print("批量插入了"+row+"条数据");
+//	out.print("批量插入了"+row+"条数据");
  %>
 <!doctype html>
 <html lang="en">
@@ -222,7 +222,14 @@
 		<div class="row">
 			<a href="FindProductServlet">查看所有商品信息</a>
 		</div>
+		
+		<div class="row">
+			<a href="struts2Test/MyStruts.jsp">xx</a>
+		</div>
+	
 	</div>
+	
+	
 	
 </body>
 </html>

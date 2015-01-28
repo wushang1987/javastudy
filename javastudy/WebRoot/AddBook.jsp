@@ -36,7 +36,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					String password = "12345";
 					Connection conn = DriverManager.getConnection(url,username,password);
 					if(conn != null){
-						out.println("数据库连接成功");
+						//out.println("数据库连接成功");
 						//conn.close();
 					}else{
 						out.println("数据库连接失败");

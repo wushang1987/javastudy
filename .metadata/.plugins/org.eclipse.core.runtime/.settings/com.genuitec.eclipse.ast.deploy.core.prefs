@@ -1,13 +1,24 @@
-#Fri Dec 26 19:57:51 CST 2014
-tomcat7Server.javastudy.type=WebDeployment
-tomcat7Server.javastudy.deploymentPath=D\:\\Program Files\\apache-tomcat-7.0.52\\webapps\\javastudy
+#Sat Jan 24 17:07:50 CST 2015
+tomcat7Server.strutsTest.contextRoot=/strutsTest
 tomcat7Server.javastudy.altContextRoot=
-tomcat7Server.javastudy.deployIsOverProject=false
-tomcat7Server.javastudy.isDeployed=true
-tomcat7Server.javastudy.IEARProjectName=
-tomcat7Server.javastudy.contextRoot=/javastudy
-tomcat7Server.javastudy.shouldBackup=false
+tomcat7Server.strutsTest.isDeployed=true
+tomcat7Server.javastudy.deploymentPath=D\:\\Program Files\\apache-tomcat-7.0.52\\webapps\\javastudy
+tomcat7Server.javastudy.type=WebDeployment
 eclipse.preferences.version=1
-tomcat7Server.javastudy.isUptoDate=true
+tomcat7Server.strutsTest.altContextRoot=
 tomcat7Server.javastudy.isExploded=true
 tomcat7Server.javastudy.shouldOverwrite=false
+tomcat7Server.javastudy.deployIsOverProject=false
+tomcat7Server.javastudy.contextRoot=/javastudy
+tomcat7Server.strutsTest.isUptoDate=true
+tomcat7Server.javastudy.shouldBackup=false
+tomcat7Server.strutsTest.shouldBackup=false
+tomcat7Server.javastudy.isDeployed=true
+tomcat7Server.strutsTest.deployIsOverProject=false
+tomcat7Server.strutsTest.isExploded=true
+tomcat7Server.javastudy.isUptoDate=true
+tomcat7Server.strutsTest.deploymentPath=D\:\\Program Files\\apache-tomcat-7.0.52\\webapps\\strutsTest
+tomcat7Server.strutsTest.shouldOverwrite=false
+tomcat7Server.strutsTest.IEARProjectName=
+tomcat7Server.strutsTest.type=WebDeployment
+tomcat7Server.javastudy.IEARProjectName=

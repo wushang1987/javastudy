@@ -27,10 +27,13 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.struts2.editor" itemType="typePlaceholder" x="342" y="22"/>
 <coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -44,37 +47,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="E:/GitHubSpace/javastudy/javastudy/WebRoot/index.jsp" title="index.jsp" tooltip="javastudy/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/WebRoot/index.jsp"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindBook.java" partName="FindBook.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/FindBook.java" title="FindBook.java" tooltip="javastudy/src/com/wgh/FindBook.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/FindBook.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="668" selectionTopPixel="126"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyServlet.java" partName="MyServlet.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/MyServlet.java" title="MyServlet.java" tooltip="javastudy/src/com/wgh/MyServlet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/MyServlet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="537" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Product.java" partName="Product.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/Product.java" title="Product.java" tooltip="javastudy/src/com/wgh/Product.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/Product.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="500" selectionTopPixel="0"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="shoUser.jsp" partName="shoUser.jsp" path="E:/GitHubSpace/javastudy/javastudy/WebRoot/shoUser.jsp" title="shoUser.jsp" tooltip="javastudy/WebRoot/shoUser.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/WebRoot/shoUser.jsp"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindProductServlet.java" partName="FindProductServlet.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/FindProductServlet.java" title="FindProductServlet.java" tooltip="javastudy/src/com/wgh/FindProductServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/FindProductServlet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2693" selectionTopPixel="907"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoList.java" partName="UserInfoList.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/UserInfoList.java" title="UserInfoList.java" tooltip="javastudy/src/com/wgh/UserInfoList.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/UserInfoList.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="61" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoFrace.java" partName="UserInfoFrace.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/UserInfoFrace.java" title="UserInfoFrace.java" tooltip="javastudy/src/com/wgh/UserInfoFrace.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/UserInfoFrace.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="142" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="E:/GitHubSpace/javastudy/javastudy/WebRoot/WEB-INF/web.xml" title="web.xml" tooltip="javastudy/WebRoot/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/WebRoot/WEB-INF/web.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SurPath.java" partName="SurPath.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/SurPath.java" title="SurPath.java" tooltip="javastudy/src/com/wgh/SurPath.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/SurPath.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="687"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProductDao.java" partName="ProductDao.java" path="E:/GitHubSpace/javastudy/javastudy/src/com/wgh/ProductDao.java" title="ProductDao.java" tooltip="javastudy/src/com/wgh/ProductDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javastudy/src/com/wgh/ProductDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="637" selectionTopPixel="153"/>
 </editor>
 </editors>
 <views>
@@ -108,13 +99,19 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="">
@@ -146,11 +143,8 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -246,17 +240,17 @@
 <perspective_action id="com.genuitec.eclipse.web20.perspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="com.genuitec.eclipse.ui.HTMLView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <view id="uky.article.imageviewer.views.ImageView"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<view id="com.genuitec.eclipse.ui.HTMLView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -272,7 +266,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.16343635" ratioLeft="312" ratioRight="1597" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.19381875" ratioLeft="370" ratioRight="1539" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@b08f1ce" ratio="0.828479" ratioLeft="512" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -289,7 +283,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.62234044" ratioLeft="585" ratioRight="355" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7648936" ratioLeft="719" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -479,155 +473,125 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/javastudy/WebRoot/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/product_list.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/book_list.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/index.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/CharactorFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/Product.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/FindBook.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/FindProductServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/ProductDao.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/javastudy/WebRoot/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/AddServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/UserInfoList.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/UserInfoTrace.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/UserInfoFrace.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/MyJsp.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/javastudy/WebRoot/shoUser.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/shoUser.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/UserInfoList.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/UserInfoFrace.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/javastudy/WebRoot/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/SurPath.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/MyServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/AddBook.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/javastudy/WebRoot/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/strutsTest/src/example.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/strutsTest/src/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/strutsTest/WebRoot/example/Login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/strutsTest/WebRoot/example/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/strutsTest/WebRoot/example/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/strutsTest/src/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/strutsTest/src/LICENSE.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/strutsTest/src/NOTICE.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/strutsTest/src/example/example.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/strutsTest/src/example/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/strutsTest/src/example/example.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/strutsTest/src/example.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" path="/strutsTest/WebRoot/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/strutsTest/WebRoot/example/HelloWorld.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javastudy/src/com/wgh/FindBook.java"/>
 </editors>
-<item historyLabel="CharactorFilter.java" index="1">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="product_list.jsp" index="1"/>
+<item historyLabel="book_list.jsp" index="2"/>
+<item historyLabel="product_list.jsp" index="1"/>
+<item historyLabel="index.jsp" index="3"/>
+<item historyLabel="web.xml" index="0"/>
+<item historyLabel="Product.java" index="4">
+<position info="not_deleted" x="320" y="0"/>
 </item>
-<item historyLabel="AddServlet.java" index="3">
-<position info="not_deleted" x="575" y="0"/>
+<item historyLabel="FindBook.java" index="5">
+<position info="not_deleted" x="1329" y="0"/>
 </item>
-<item historyLabel="web.xml" index="2"/>
-<item historyLabel="AddServlet.java" index="3">
-<position info="not_deleted" x="2894" y="0"/>
-</item>
-<item historyLabel="CharactorFilter.java" index="1">
-<position info="not_deleted" x="1197" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="UserInfoList.java" index="4">
+<item historyLabel="FindProductServlet.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="130" y="0"/>
+<item historyLabel="Product.java" index="4">
+<position info="not_deleted" x="320" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="190" y="0"/>
+<item historyLabel="ProductDao.java" index="7">
+<position info="not_deleted" x="637" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="221" y="0"/>
+<item historyLabel="Product.java" index="4">
+<position info="not_deleted" x="500" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="467" y="0"/>
+<item historyLabel="FindProductServlet.java" index="6">
+<position info="not_deleted" x="2693" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="269" y="0"/>
+<item historyLabel="web.xml" index="8"/>
+<item historyLabel="AddBook.jsp" index="9"/>
+<item historyLabel="index.jsp" index="10"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="Login.jsp" index="13"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="struts.xml" index="14">
+<position info="not_deleted" x="905" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="335" y="0"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="struts.xml" index="15"/>
+<item historyLabel="struts.xml" index="16">
+<position info="not_deleted" x="883" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="110" y="0"/>
-</item>
-<item historyLabel="UserInfoTrace.java" index="5">
+<item historyLabel="LICENSE.txt" index="17">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="110" y="0"/>
-</item>
-<item historyLabel="UserInfoFrace.java" index="6">
+<item historyLabel="NOTICE.txt" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="UserInfoFrace.java" index="6">
-<position info="not_deleted" x="305" y="0"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="example.xml" index="19">
+<position info="not_deleted" x="578" y="4"/>
 </item>
-<item historyLabel="UserInfoFrace.java" index="6">
-<position info="not_deleted" x="676" y="0"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="struts.xml" index="20">
+<position info="not_deleted" x="883" y="0"/>
 </item>
-<item historyLabel="MyJsp.jsp" index="7"/>
-<item historyLabel="shoUser.jsp" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="struts.xml" index="16">
+<position info="not_deleted" x="883" y="0"/>
 </item>
-<item historyLabel="UserInfoFrace.java" index="6">
-<position info="not_deleted" x="676" y="0"/>
+<item historyLabel="example.xml" index="21"/>
+<item historyLabel="example.xml" index="22">
+<position info="not_deleted" x="578" y="4"/>
 </item>
-<item historyLabel="UserInfoList.java" index="4">
-<position info="not_deleted" x="110" y="0"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="example.xml" index="11">
+<position info="not_deleted" x="781" y="0"/>
 </item>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="shoUser.jsp" index="9"/>
-<item historyLabel="UserInfoList.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="example.xml" index="22">
+<position info="not_deleted" x="536" y="55"/>
 </item>
-<item historyLabel="UserInfoFrace.java" index="11">
-<position info="not_deleted" x="681" y="0"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="index.html" index="23"/>
+<item historyLabel="HelloWorld.jsp" index="24"/>
+<item historyLabel="Login.jsp" index="13"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="example.xml" index="11"/>
+<item historyLabel="struts.xml" index="12"/>
+<item historyLabel="Login.jsp" index="13"/>
+<item active="true" historyLabel="FindBook.java" index="25">
+<position info="not_deleted" x="1329" y="0"/>
 </item>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="UserInfoList.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserInfoFrace.java" index="11">
-<position info="not_deleted" x="142" y="13"/>
-</item>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="web.xml" index="12"/>
-<item historyLabel="SurPath.java" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="shoUser.jsp" index="9"/>
-<item historyLabel="UserInfoFrace.java" index="11">
-<position info="not_deleted" x="142" y="13"/>
-</item>
-<item historyLabel="MyServlet.java" index="14">
-<position info="not_deleted" x="537" y="0"/>
-</item>
-<item historyLabel="UserInfoFrace.java" index="11">
-<position info="not_deleted" x="142" y="13"/>
-</item>
-<item historyLabel="UserInfoList.java" index="10">
-<position info="not_deleted" x="61" y="12"/>
-</item>
-<item historyLabel="UserInfoFrace.java" index="11">
-<position info="not_deleted" x="142" y="13"/>
-</item>
-<item historyLabel="shoUser.jsp" index="9"/>
-<item historyLabel="MyServlet.java" index="14">
-<position info="not_deleted" x="537" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="web.xml" index="12"/>
-<item historyLabel="index.jsp" index="0"/>
-<item historyLabel="shoUser.jsp" index="9"/>
-<item active="true" historyLabel="index.jsp" index="0"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topleft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@b08f1ce"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@783b110a"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -635,53 +599,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottomleft"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SurPath.java" tooltip="javastudy/src/com/wgh/SurPath.java">
-<persistable path="/javastudy/src/com/wgh/SurPath.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Login.jsp" tooltip="strutsTest/WebRoot/example/Login.jsp">
+<persistable path="/strutsTest/WebRoot/example/Login.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="HelloWorld.jsp" tooltip="strutsTest/WebRoot/example/HelloWorld.jsp">
+<persistable path="/strutsTest/WebRoot/example/HelloWorld.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" name="index.html" tooltip="strutsTest/WebRoot/index.html">
+<persistable path="/strutsTest/WebRoot/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="NOTICE.txt" tooltip="strutsTest/src/NOTICE.txt">
+<persistable path="/strutsTest/src/NOTICE.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="LICENSE.txt" tooltip="strutsTest/src/LICENSE.txt">
+<persistable path="/strutsTest/src/LICENSE.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" name="struts.xml" tooltip="strutsTest/src/struts.xml">
+<persistable path="/strutsTest/src/struts.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" name="example.xml" tooltip="strutsTest/src/example.xml">
+<persistable path="/strutsTest/src/example.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" tooltip="javastudy/WebRoot/index.jsp">
+<persistable path="/javastudy/WebRoot/index.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="AddBook.jsp" tooltip="javastudy/WebRoot/AddBook.jsp">
+<persistable path="/javastudy/WebRoot/AddBook.jsp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="javastudy/WebRoot/WEB-INF/web.xml">
 <persistable path="/javastudy/WebRoot/WEB-INF/web.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoFrace.java" tooltip="javastudy/src/com/wgh/UserInfoFrace.java">
-<persistable path="/javastudy/src/com/wgh/UserInfoFrace.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProductDao.java" tooltip="javastudy/src/com/wgh/ProductDao.java">
+<persistable path="/javastudy/src/com/wgh/ProductDao.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoList.java" tooltip="javastudy/src/com/wgh/UserInfoList.java">
-<persistable path="/javastudy/src/com/wgh/UserInfoList.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindProductServlet.java" tooltip="javastudy/src/com/wgh/FindProductServlet.java">
+<persistable path="/javastudy/src/com/wgh/FindProductServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="shoUser.jsp" tooltip="javastudy/WebRoot/shoUser.jsp">
-<persistable path="/javastudy/WebRoot/shoUser.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="product_list.jsp" tooltip="javastudy/WebRoot/product_list.jsp">
+<persistable path="/javastudy/WebRoot/product_list.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddServlet.java" tooltip="javastudy/src/com/wgh/AddServlet.java">
-<persistable path="/javastudy/src/com/wgh/AddServlet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Product.java" tooltip="javastudy/src/com/wgh/Product.java">
+<persistable path="/javastudy/src/com/wgh/Product.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharactorFilter.java" tooltip="javastudy/src/com/wgh/CharactorFilter.java">
-<persistable path="/javastudy/src/com/wgh/CharactorFilter.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Myfilter.java" tooltip="javastudy/src/com/wgh/Myfilter.java">
-<persistable path="/javastudy/src/com/wgh/Myfilter.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery-2.1.0.min.js" tooltip="javastudy/WebRoot/js/jquery-2.1.0.min.js">
-<persistable path="/javastudy/WebRoot/js/jquery-2.1.0.min.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ForwardServlet.java" tooltip="javastudy/src/com/wgh/ForwardServlet.java">
-<persistable path="/javastudy/src/com/wgh/ForwardServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListTest.java" tooltip="javastudy/src/com/wgh/ListTest.java">
-<persistable path="/javastudy/src/com/wgh/ListTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userJsp.jsp" tooltip="javastudy/WebRoot/userJsp.jsp">
-<persistable path="/javastudy/WebRoot/userJsp.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserServlet.java" tooltip="javastudy/src/com/wgh/UserServlet.java">
-<persistable path="/javastudy/src/com/wgh/UserServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyServlet.java" tooltip="javastudy/src/com/wgh/MyServlet.java">
-<persistable path="/javastudy/src/com/wgh/MyServlet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindBook.java" tooltip="javastudy/src/com/wgh/FindBook.java">
+<persistable path="/javastudy/src/com/wgh/FindBook.java"/>
 </file>
 </mruList>
 </workbench>

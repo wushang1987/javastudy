@@ -3,3 +3,11 @@ E:\GitHubSpace\javastudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4
 \javastudy
 E:\GitHubSpace\javastudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3792234166.index
 \test
+E:\GitHubSpace\javastudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2940503475.index
+\strutsTest
+E:\GitHubSpace\javastudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2533303766.index
+\strutsTest
+E:\GitHubSpace\javastudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1891772717.index
+\strutsTest
+E:\GitHubSpace\javastudy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\427271581.index
+\javastudy
