@@ -6,9 +6,19 @@
 		<item value="213" key="DIALOG_Y_ORIGIN"/>
 		<item value="407" key="DIALOG_X_ORIGIN"/>
 	</section>
-	<section name="ZipFileImportWizard">
-	</section>
 	<section name="NewWizardAction">
+		<item value="com.aston.wizards.xml.NewXmlCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory/org.eclipse.emf.codegen.ecore.ui.mappingWizardCategory"/>
+			<item value="com.genuitec.eclipse.myeclipse"/>
+			<item value="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.web"/>
+			<item value="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.xml"/>
+			<item value="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.xml/org.eclipse.wst.xml.examples"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
 	</section>
 	<section name="ImportExportAction">
 	</section>

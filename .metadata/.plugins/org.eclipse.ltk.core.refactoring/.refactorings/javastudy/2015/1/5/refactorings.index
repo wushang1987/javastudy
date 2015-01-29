@@ -1,3 +1,13 @@
 1422421683801	Encapsulate field 'username'
 1422423123014	Move file
 1422423126139	Move file
+1422444743103	Encapsulate field 'id'
+1422444746025	Encapsulate field 'title'
+1422444749133	Encapsulate field 'content'
+1422446383911	Delete element
+1422446455330	Rename resource 'MyXml.xml'
+1422446634791	Delete element
+1422446667332	Delete element
+1422447365616	Delete element
+1422507370390	Encapsulate field 'message'
+1422507734822	Rename resource 'MyXml.xml'

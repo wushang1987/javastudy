@@ -224,7 +224,7 @@
 		</div>
 		
 		<div class="row">
-			<a href="struts2Test/MyStruts.jsp">xx</a>
+			<a href="struts2Test/MyStruts.jsp">使用struts</a>
 		</div>
 	
 	</div>
